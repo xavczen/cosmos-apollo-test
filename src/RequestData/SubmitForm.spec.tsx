@@ -3,7 +3,7 @@ import createTestContext from 'react-cosmos-test/enzyme';
 
 import fixture from './SubmitForm.fixture';
 
-const { mount, getWrapper, set } = createTestContext({ fixture });
+const { mount, getWrapper } = createTestContext({ fixture });
 
 describe('SubmitForm', () => {
   beforeEach(mount);

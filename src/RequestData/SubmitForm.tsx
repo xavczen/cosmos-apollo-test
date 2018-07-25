@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import { Mutation } from "react-apollo";
-import saveExportDataRequest from "../graphql/mutations/saveExportDataRequest";
-import getAvailableOptions from "../graphql/queries/getAvailableOptions";
+import { Mutation } from 'react-apollo';
+import saveExportDataRequest from '../graphql/mutations/saveExportDataRequest';
+import getAvailableOptions from '../graphql/queries/getAvailableOptions';
 
 const updateCache = (cache: any) => {
+  debugger; // tslint:disable-line
   const { availableOptions } = cache.readQuery({ query: getAvailableOptions });
 
   cache.writeQuery({
@@ -12,9 +13,9 @@ const updateCache = (cache: any) => {
     data: {
       availableOptions: {
         ...availableOptions,
-        submitted: true
-      }
-    }
+        submitted: true,
+      },
+    },
   });
 };
 
@@ -31,13 +32,13 @@ export default class SubmitForm extends Component<{}, {}> {
                   submitRequest({
                     variables: {
                       input: {
-                        foo: "blah"
-                      }
-                    }
+                        foo: 'blah',
+                      },
+                    },
                   });
                 }}
               >
-                {loading ? "Loading" : "Submit"}
+                {loading ? 'Loading' : 'Submit'}
               </button>
             );
           }}
