@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingSpinner renders correctly 1`] = `
+<svg
+  height="200px"
+  preserveAspectRatio="xMidYMid"
+  style={
+    Object {
+      "background": "none",
+    }
+  }
+  viewBox="0 0 100 100"
+  width="200px"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g
+    transform="translate(50,50)"
+  >
+    <g
+      transform="scale(0.7)"
+    >
+      <g
+        transform="translate(-50,-50)"
+      >
+        <g
+          transform="rotate(8 50 50)"
+        >
+          <animateTransform
+            attributeName="transform"
+            begin="0s"
+            calcMode="linear"
+            dur="0.75s"
+            keyTimes="0;1"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 50 50;360 50 50"
+          />
+          <path
+            d="M50 50L50 0A50 50 0 0 1 100 50Z"
+            fill="#004d73"
+            fillOpacity="0.8"
+          />
+        </g>
+        <g
+          transform="rotate(96 50 50)"
+        >
+          <animateTransform
+            attributeName="transform"
+            begin="0s"
+            calcMode="linear"
+            dur="1s"
+            keyTimes="0;1"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 50 50;360 50 50"
+          />
+          <path
+            d="M50 50L50 0A50 50 0 0 1 100 50Z"
+            fill="#00334e"
+            fillOpacity="0.8"
+            transform="rotate(90 50 50)"
+          />
+        </g>
+        <g
+          transform="rotate(184 50 50)"
+        >
+          <animateTransform
+            attributeName="transform"
+            begin="0s"
+            calcMode="linear"
+            dur="1.5s"
+            keyTimes="0;1"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 50 50;360 50 50"
+          />
+          <path
+            d="M50 50L50 0A50 50 0 0 1 100 50Z"
+            fill="#007fdb"
+            fillOpacity="0.8"
+            transform="rotate(180 50 50)"
+          />
+        </g>
+        <g
+          transform="rotate(272 50 50)"
+        >
+          <animateTransform
+            attributeName="transform"
+            begin="0s"
+            calcMode="linear"
+            dur="3s"
+            keyTimes="0;1"
+            repeatCount="indefinite"
+            type="rotate"
+            values="0 50 50;360 50 50"
+          />
+          <path
+            d="M50 50L50 0A50 50 0 0 1 100 50Z"
+            fill="#dbebfa"
+            fillOpacity="0.8"
+            transform="rotate(270 50 50)"
+          />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+`;
